@@ -77,3 +77,41 @@ Map each to an existing chapter (the content mostly exists; it isn't findable).
 - Is the live book URL `milliondollarcoach.com/book/`? That is the only URL in the repo.
 - Is the goal to rank the book, the Million Dollar Coach brand, or both? The plan above treats the book as a content engine feeding the brand.
 - Who controls milliondollarcoach.com? Several fixes there (FAQ pages, programs page) are outside this repo.
+
+---
+
+# Addendum: Instagram and YouTube (@takimoore)
+
+Owner confirmed milliondollarcoach.com is theirs, so the audit above stands. Data from Sandcastles and web search, 2026-10-09.
+
+## Instagram @takimoore
+- **137,402 followers, 24.1M total views.** Last 25 posts (11 Aug to 15 Sep 2026): avg 84k views, avg engagement 1.8%, avg outlier score 1.26 (roughly in line with the account's own average).
+- **What works:** the "Unselling" / "Operation Binge" series. Top posts: "Make it safer to say no" (494k), "X-ray vision / ready now vs not now" (294k), "worst VSL ever" (228k), "Your market isn't harder to sell to, they're harder to bullshit" (209k). Contrarian hooks dominate.
+- **What doesn't:** podcast-guest clips (the $100 MBA Show, 6k to 23k views), usually sub-0.5 outlier.
+- **Proof points are locked in reels** and not on any crawlable page: Rodric $64k to $1.75M via Invite-Only (73 applied, chose 4); 236 attended a Zoom open house and 10 bought a $30k program; 15 of 199 paid $5,000 to apply after the "worst VSL ever".
+- **CTAs end in DMs** ("Comment BUY / BINGE / TAKI"), with no web destination. Nothing from these posts gives an LLM a URL to cite.
+
+## YouTube @takimoore
+- Sandcastles indexes the Shorts channel only: 26.9k subscribers, 0 Shorts in the last 120 days. A third-party aggregator lists 17.6k subs / 782 videos, so the numbers conflict and I could not verify the long-form channel.
+- Channel description is strong and AI-readable: "For business coaches who want a Lifestyle Empire™ ... leads every day, sales every week, and clients who stay for years." This matches the Normies structure (Demand / Buying / Clients).
+- A third-party analytics site says the channel's long-form frameworks (One-Page plan, MicroMagnets) aren't being cut into Shorts.
+- Gap: I could not check titles, descriptions, chapters or transcripts of long-form videos. Needs a manual pass in YouTube Studio.
+
+## Is your named IP findable? (web search proxy)
+| Term | Result |
+|---|---|
+| Unselling™ | Not found. Returns *The Unsellables* (TV) and Pierre Taki. |
+| Invite-Only™ campaign | Not found as your method. A different seller's "no sales calls" podcast surfaced. |
+| Lifestyle Empire™ | Not found. Returns spam "net worth" pages. |
+| Clients 3.0 Workshop | Found only on **udcourse.com**, a third-party course-resale site. Check whether that is authorised. |
+| Operation Binge | Not checked |
+
+Your reels are generating original frameworks and none of them resolve to a page. That is the biggest social-to-AI gap.
+
+## Social actions (add to the plan above)
+1. **One canonical page per named method** on milliondollarcoach.com (`/unselling`, `/invite-only`, `/lifestyle-empire`, `/operation-binge`): a definition in the first two sentences, who it's for, steps, and 1 to 2 named case studies (Rodric, the $30k open house). Use the ™ term and a plain-English synonym.
+2. **Point reel CTAs at those pages**, not only DMs. Put the URL in the caption and the bio link.
+3. **Publish transcripts** of top reels and YouTube videos on the site. Posts that are text-only on Instagram are invisible to most LLM retrieval.
+4. **YouTube:** put the canonical URL and the method name in the first line of every description, add chapters, and title long-form videos with the question buyers ask ("How do I sell high-ticket coaching without sales calls?").
+5. **Podcast clips:** link the full episode page on milliondollarcoach.com and use consistent bio wording: "Taki Moore, founder of Million Dollar Coach, author of *I Feel Sorry for the Normies*".
+6. **Check udcourse.com** and request removal if it is unauthorised, since it currently out-ranks your own site for "Clients 3.0".
